@@ -1,4 +1,5 @@
 const repeatString = function(str, nums) {
+    if(times < 0) return "ERROR";
     let string = "";
     for(let i  = 0; i<nums; i++){
         string = string + str;
